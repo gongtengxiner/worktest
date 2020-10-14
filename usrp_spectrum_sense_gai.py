@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 # Copyright 2005,2007,2011 Free Software Foundation, Inc.
-# 添加了一些输出信息
+# 添加了一些输出信息,加了输出到文本
 # This file is part of GNU Radio
 #
 # GNU Radio is free software; you can redistribute it and/or modify
@@ -328,7 +328,7 @@ if __name__ == '__main__':
     # mydata = open('mydata.log', mode = 'a+')
     # seek（0）
     # truncate()
-    
+
     t = ThreadClass()
     t.start()
 
